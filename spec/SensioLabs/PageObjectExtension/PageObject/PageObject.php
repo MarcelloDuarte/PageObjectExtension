@@ -4,7 +4,7 @@ namespace spec\SensioLabs\PageObjectExtension\PageObject;
 
 use PHPSpec2\ObjectBehavior;
 
-class PageObject extends ObjectBehavior
+abstract class PageObject extends ObjectBehavior
 {
     /**
      * @param \Behat\Mink\Session $session
